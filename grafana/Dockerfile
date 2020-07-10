@@ -25,4 +25,4 @@ COPY dashboards.yml /etc/grafana/provisioning/dashboards/
 COPY dashboards/internal/*.json /dashboards_internal/
 COPY dashboards/*.json /dashboards/
 
-EXPOSE 3000
+EXPOSE 3201
